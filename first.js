@@ -168,3 +168,78 @@ Jayasooriya`);
 console.log("\n")
 
 //----------------------Template Literal---------------------//
+
+
+//While loop check for the condition and execute the code
+//DO while loop execute the code once and check for the conditions
+
+
+//----------------------------Objects---------------------------//
+
+let Malinda = {    //Objects of the Malinda
+
+    name : 'Shehan Malinda Jayasooriya',
+    age  :  22,
+    home : 'Gampaha',
+    schl : "Bandaranayake College Gampaha",
+    cmps : "KDU"
+}
+
+console.log(Malinda);
+console.log(Malinda.schl);
+console.log(Malinda["name"]);
+console.log(Malinda['schl']);
+
+let input = 'schl';
+
+console.log(Malinda.input);
+console.log(Malinda[input]);  //This method is important for theese kind of things
+console.log("\n")
+
+//----------------------------Objects---------------------------//
+
+
+
+
+//-------------------------Complex Objects---------------------------//
+
+//Objects inside an Object
+console.log(Malinda.schl?.length); //Is the name2 available , if its available its normal
+//Otherwise it's output the Undifined and not giving an error
+
+delete Malinda.age;
+console.log(Malinda);
+
+console.log("\n")
+
+//-------------------------Complex Objects---------------------------//
+
+
+
+
+//--------------------------For-In Loop---------------------------//
+for(let key in Malinda){
+
+    console.log(key , Malinda[key]);
+}
+//--------------------------For-In Loop---------------------------//
+
+
+
+
+//-------------------------Functions---------------------------//
+
+function first_func(userName){
+
+    return(`Hello ${userName}`)
+}
+
+console.log(first_func('Jayasooriya'));
+ 
+console.log("\n")
+
+//-------------------------Functions---------------------------//
+
+
+
+
